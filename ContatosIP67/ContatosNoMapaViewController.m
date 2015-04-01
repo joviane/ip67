@@ -51,6 +51,7 @@
 - (void)viewDidDisappear:(BOOL)animated {
     [self.mapa removeAnnotations:self.contatos];
 }
+
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation {
     NSLog(@"Criando pino");
     if ([annotation isKindOfClass:[MKUserLocation class]]) {

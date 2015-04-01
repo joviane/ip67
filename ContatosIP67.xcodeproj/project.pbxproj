@@ -14,6 +14,8 @@
 		83330E1A1A674219006A463C /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E191A674219006A463C /* ContatoDao.m */; };
 		83330E1D1A6758FC006A463C /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E1C1A6758FC006A463C /* ListaContatosViewController.m */; };
 		83330E201A68767E006A463C /* GerenciadorDeAcoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E1F1A68767E006A463C /* GerenciadorDeAcoes.m */; };
+		83492A7A1AB77D1E004517E1 /* BlaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83492A791AB77D1E004517E1 /* BlaViewController.xib */; };
+		83879CBB1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */; };
 		839C3C251A69135A003E07F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C3C241A69135A003E07F8 /* MessageUI.framework */; };
 		839C3C271A691364003E07F8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C3C261A691364003E07F8 /* MapKit.framework */; };
 		839C3C2B1A691D08003E07F8 /* ContatosNoMapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C3C291A691D08003E07F8 /* ContatosNoMapaViewController.m */; };
@@ -26,6 +28,7 @@
 		83A538611A48A0280096610B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A538601A48A0280096610B /* Images.xcassets */; };
 		83A538641A48A0280096610B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A538621A48A0280096610B /* LaunchScreen.xib */; };
 		83A538701A48A0280096610B /* ContatosIP67Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A5386F1A48A0280096610B /* ContatosIP67Tests.m */; };
+		83C0DAF01A9F4A320078966B /* BlaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0DAEF1A9F4A320078966B /* BlaViewController.swift */; };
 		83FD32C31A711CEB00F33560 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD32C21A711CEB00F33560 /* CoreLocation.framework */; };
 		FA75853C33414C4DB4508C0C /* libPods-ContatosIP67.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1B29E03256438A82F2341E /* libPods-ContatosIP67.a */; };
 /* End PBXBuildFile section */
@@ -54,6 +57,9 @@
 		83330E1C1A6758FC006A463C /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
 		83330E1E1A68767E006A463C /* GerenciadorDeAcoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GerenciadorDeAcoes.h; sourceTree = "<group>"; };
 		83330E1F1A68767E006A463C /* GerenciadorDeAcoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerenciadorDeAcoes.m; sourceTree = "<group>"; };
+		83492A791AB77D1E004517E1 /* BlaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlaViewController.xib; sourceTree = "<group>"; };
+		835AC0AC1A813AA200BF703A /* ContatosIP67-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIP67-Bridging-Header.h"; sourceTree = "<group>"; };
+		83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatosNoMapaViewControllerSwift.swift; sourceTree = "<group>"; };
 		839C3C241A69135A003E07F8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		839C3C261A691364003E07F8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		839C3C281A691D08003E07F8 /* ContatosNoMapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatosNoMapaViewController.h; sourceTree = "<group>"; };
@@ -73,6 +79,7 @@
 		83A538691A48A0280096610B /* ContatosIP67Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContatosIP67Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A5386E1A48A0280096610B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A5386F1A48A0280096610B /* ContatosIP67Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContatosIP67Tests.m; sourceTree = "<group>"; };
+		83C0DAEF1A9F4A320078966B /* BlaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlaViewController.swift; sourceTree = "<group>"; };
 		83FD32C21A711CEB00F33560 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8B095A986C334429A0C5EC54 /* Pods-ContatosIP67.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContatosIP67.xcconfig"; path = "Pods/Pods-ContatosIP67.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +149,9 @@
 				839C3C281A691D08003E07F8 /* ContatosNoMapaViewController.h */,
 				839C3C291A691D08003E07F8 /* ContatosNoMapaViewController.m */,
 				839C3C2A1A691D08003E07F8 /* ContatosNoMapaViewController.xib */,
+				83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */,
+				83C0DAEF1A9F4A320078966B /* BlaViewController.swift */,
+				83492A791AB77D1E004517E1 /* BlaViewController.xib */,
 				83A5385A1A48A0270096610B /* FormularioContatoViewController.h */,
 				83A5385B1A48A0270096610B /* FormularioContatoViewController.m */,
 				83A5385D1A48A0280096610B /* Main.storyboard */,
@@ -149,6 +159,7 @@
 				83A538621A48A0280096610B /* LaunchScreen.xib */,
 				83A538571A48A0270096610B /* ContatosIP67.xcdatamodeld */,
 				83A538501A48A0270096610B /* Supporting Files */,
+				835AC0AC1A813AA200BF703A /* ContatosIP67-Bridging-Header.h */,
 			);
 			path = ContatosIP67;
 			sourceTree = "<group>";
@@ -276,6 +287,7 @@
 				839C3C2C1A691D08003E07F8 /* ContatosNoMapaViewController.xib in Resources */,
 				83A538611A48A0280096610B /* Images.xcassets in Resources */,
 				831A3CC51A72A8AD00B20EB9 /* TempoCidadeContatoViewController.xib in Resources */,
+				83492A7A1AB77D1E004517E1 /* BlaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +342,12 @@
 				83A538561A48A0270096610B /* AppDelegate.m in Sources */,
 				83330E1D1A6758FC006A463C /* ListaContatosViewController.m in Sources */,
 				83A538591A48A0270096610B /* ContatosIP67.xcdatamodeld in Sources */,
+				83C0DAF01A9F4A320078966B /* BlaViewController.swift in Sources */,
 				83330E1A1A674219006A463C /* ContatoDao.m in Sources */,
 				831A3CC41A72A8AD00B20EB9 /* TempoCidadeContatoViewController.m in Sources */,
 				83A5385C1A48A0270096610B /* FormularioContatoViewController.m in Sources */,
 				83330E201A68767E006A463C /* GerenciadorDeAcoes.m in Sources */,
+				83879CBB1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift in Sources */,
 				839C3C2B1A691D08003E07F8 /* ContatosNoMapaViewController.m in Sources */,
 				83A538531A48A0270096610B /* main.m in Sources */,
 			);
@@ -457,12 +471,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B095A986C334429A0C5EC54 /* Pods-ContatosIP67.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContatosIP67/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67/ContatosIP67-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -470,12 +487,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B095A986C334429A0C5EC54 /* Pods-ContatosIP67.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContatosIP67/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67/ContatosIP67-Bridging-Header.h";
 			};
 			name = Release;
 		};

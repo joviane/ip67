@@ -16,6 +16,6 @@
 @property Contato *contato;
 @property UIViewController* controller;
 -(id)initWithContato:(Contato *)contato;
--(void)acoesNaView:(UIView *)view doController:(UIViewController *)controller;
+-(void)acoesDoController:(UIViewController *)controller;
 
 @end

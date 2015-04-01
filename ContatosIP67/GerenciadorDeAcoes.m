@@ -19,10 +19,10 @@
     return self;
 }
 
-- (void)acoesNaView:(UIView *)view doController:(UIViewController *) controller{
+- (void)acoesDoController:(UIViewController *) controller{
     self.controller = controller;
     UIActionSheet *opcoes = [[UIActionSheet alloc] initWithTitle: self.contato.nome delegate:self cancelButtonTitle:@"Cancelar" destructiveButtonTitle:nil otherButtonTitles:@"Ligar", @"Enviar Email", @"Visualizar site", @"Abrir Mapa", @"Tempo local", nil];
-    [opcoes showInView:view];
+    [opcoes showInView:controller.view];
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -72,7 +72,7 @@
         
         // configuração do controller de e-mail
         enviadorEmail.mailComposeDelegate = self;
-        
+
         [enviadorEmail setToRecipients:@[self.contato.email]];
         [enviadorEmail setSubject:@"Caelum"];
         [enviadorEmail setTitle:@"Batman"];

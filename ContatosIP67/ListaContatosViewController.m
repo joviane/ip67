@@ -106,7 +106,7 @@
         
         self.contatoSelecionado = [self.dao buscaContatoDaPosicao:index.row];
         _gerenciador = [[GerenciadorDeAcoes alloc] initWithContato: self.contatoSelecionado];
-        [self.gerenciador acoesNaView:self.view doController:self];
+        [self.gerenciador acoesDoController:self];
     }
 }
 
