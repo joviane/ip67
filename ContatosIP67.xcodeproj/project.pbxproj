@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		830B20DE1A6F4859003BFDF5 /* Vila Mariana.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 830B20DD1A6F4859003BFDF5 /* Vila Mariana.gpx */; };
-		831A3CC41A72A8AD00B20EB9 /* TempoCidadeContatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831A3CC21A72A8AD00B20EB9 /* TempoCidadeContatoViewController.m */; };
-		831A3CC51A72A8AD00B20EB9 /* TempoCidadeContatoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831A3CC31A72A8AD00B20EB9 /* TempoCidadeContatoViewController.xib */; };
 		83330E171A6726CE006A463C /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E161A6726CE006A463C /* Contato.m */; };
 		83330E1A1A674219006A463C /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E191A674219006A463C /* ContatoDao.m */; };
 		83330E1D1A6758FC006A463C /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E1C1A6758FC006A463C /* ListaContatosViewController.m */; };
 		83330E201A68767E006A463C /* GerenciadorDeAcoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83330E1F1A68767E006A463C /* GerenciadorDeAcoes.m */; };
-		83492A7A1AB77D1E004517E1 /* BlaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83492A791AB77D1E004517E1 /* BlaViewController.xib */; };
+		8346242D1B0265170029F819 /* TempoCidadeContatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8346242B1B0265170029F819 /* TempoCidadeContatoViewController.m */; };
+		8346242E1B0265170029F819 /* TempoCidadeContatoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8346242C1B0265170029F819 /* TempoCidadeContatoViewController.xib */; };
 		83879CBB1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */; };
 		839C3C251A69135A003E07F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C3C241A69135A003E07F8 /* MessageUI.framework */; };
 		839C3C271A691364003E07F8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C3C261A691364003E07F8 /* MapKit.framework */; };
@@ -28,7 +27,6 @@
 		83A538611A48A0280096610B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A538601A48A0280096610B /* Images.xcassets */; };
 		83A538641A48A0280096610B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A538621A48A0280096610B /* LaunchScreen.xib */; };
 		83A538701A48A0280096610B /* ContatosIP67Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A5386F1A48A0280096610B /* ContatosIP67Tests.m */; };
-		83C0DAF01A9F4A320078966B /* BlaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0DAEF1A9F4A320078966B /* BlaViewController.swift */; };
 		83FD32C31A711CEB00F33560 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD32C21A711CEB00F33560 /* CoreLocation.framework */; };
 		FA75853C33414C4DB4508C0C /* libPods-ContatosIP67.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1B29E03256438A82F2341E /* libPods-ContatosIP67.a */; };
 /* End PBXBuildFile section */
@@ -46,9 +44,6 @@
 /* Begin PBXFileReference section */
 		6C1B29E03256438A82F2341E /* libPods-ContatosIP67.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContatosIP67.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		830B20DD1A6F4859003BFDF5 /* Vila Mariana.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Vila Mariana.gpx"; sourceTree = "<group>"; };
-		831A3CC11A72A8AD00B20EB9 /* TempoCidadeContatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TempoCidadeContatoViewController.h; path = ../TempoCidadeContatoViewController.h; sourceTree = "<group>"; };
-		831A3CC21A72A8AD00B20EB9 /* TempoCidadeContatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TempoCidadeContatoViewController.m; path = ../TempoCidadeContatoViewController.m; sourceTree = "<group>"; };
-		831A3CC31A72A8AD00B20EB9 /* TempoCidadeContatoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TempoCidadeContatoViewController.xib; path = ../TempoCidadeContatoViewController.xib; sourceTree = "<group>"; };
 		83330E151A6726CE006A463C /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
 		83330E161A6726CE006A463C /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
 		83330E181A674219006A463C /* ContatoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoDao.h; sourceTree = "<group>"; };
@@ -57,7 +52,9 @@
 		83330E1C1A6758FC006A463C /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
 		83330E1E1A68767E006A463C /* GerenciadorDeAcoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GerenciadorDeAcoes.h; sourceTree = "<group>"; };
 		83330E1F1A68767E006A463C /* GerenciadorDeAcoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerenciadorDeAcoes.m; sourceTree = "<group>"; };
-		83492A791AB77D1E004517E1 /* BlaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlaViewController.xib; sourceTree = "<group>"; };
+		8346242A1B0265170029F819 /* TempoCidadeContatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempoCidadeContatoViewController.h; sourceTree = "<group>"; };
+		8346242B1B0265170029F819 /* TempoCidadeContatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempoCidadeContatoViewController.m; sourceTree = "<group>"; };
+		8346242C1B0265170029F819 /* TempoCidadeContatoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempoCidadeContatoViewController.xib; sourceTree = "<group>"; };
 		835AC0AC1A813AA200BF703A /* ContatosIP67-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIP67-Bridging-Header.h"; sourceTree = "<group>"; };
 		83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatosNoMapaViewControllerSwift.swift; sourceTree = "<group>"; };
 		839C3C241A69135A003E07F8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -79,7 +76,6 @@
 		83A538691A48A0280096610B /* ContatosIP67Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContatosIP67Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A5386E1A48A0280096610B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A5386F1A48A0280096610B /* ContatosIP67Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContatosIP67Tests.m; sourceTree = "<group>"; };
-		83C0DAEF1A9F4A320078966B /* BlaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlaViewController.swift; sourceTree = "<group>"; };
 		83FD32C21A711CEB00F33560 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8B095A986C334429A0C5EC54 /* Pods-ContatosIP67.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContatosIP67.xcconfig"; path = "Pods/Pods-ContatosIP67.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +102,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834624341B0265B50029F819 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				83330E1B1A6758FC006A463C /* ListaContatosViewController.h */,
+				83330E1C1A6758FC006A463C /* ListaContatosViewController.m */,
+				839C3C281A691D08003E07F8 /* ContatosNoMapaViewController.h */,
+				839C3C291A691D08003E07F8 /* ContatosNoMapaViewController.m */,
+				83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */,
+				83A5385A1A48A0270096610B /* FormularioContatoViewController.h */,
+				83A5385B1A48A0270096610B /* FormularioContatoViewController.m */,
+				8346242A1B0265170029F819 /* TempoCidadeContatoViewController.h */,
+				8346242B1B0265170029F819 /* TempoCidadeContatoViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		834624351B0265CF0029F819 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				83330E151A6726CE006A463C /* Contato.h */,
+				83330E161A6726CE006A463C /* Contato.m */,
+				83330E181A674219006A463C /* ContatoDao.h */,
+				83330E191A674219006A463C /* ContatoDao.m */,
+				83330E1E1A68767E006A463C /* GerenciadorDeAcoes.h */,
+				83330E1F1A68767E006A463C /* GerenciadorDeAcoes.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		834624361B0265FC0029F819 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				839C3C2A1A691D08003E07F8 /* ContatosNoMapaViewController.xib */,
+				8346242C1B0265170029F819 /* TempoCidadeContatoViewController.xib */,
+				83A5385D1A48A0280096610B /* Main.storyboard */,
+				83A538621A48A0280096610B /* LaunchScreen.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		83A538441A48A0270096610B = {
 			isa = PBXGroup;
 			children = (
@@ -132,31 +168,13 @@
 		83A5384F1A48A0270096610B /* ContatosIP67 */ = {
 			isa = PBXGroup;
 			children = (
-				831A3CC11A72A8AD00B20EB9 /* TempoCidadeContatoViewController.h */,
-				831A3CC21A72A8AD00B20EB9 /* TempoCidadeContatoViewController.m */,
-				831A3CC31A72A8AD00B20EB9 /* TempoCidadeContatoViewController.xib */,
-				830B20DD1A6F4859003BFDF5 /* Vila Mariana.gpx */,
-				83330E151A6726CE006A463C /* Contato.h */,
-				83330E161A6726CE006A463C /* Contato.m */,
 				83A538541A48A0270096610B /* AppDelegate.h */,
 				83A538551A48A0270096610B /* AppDelegate.m */,
-				83330E181A674219006A463C /* ContatoDao.h */,
-				83330E191A674219006A463C /* ContatoDao.m */,
-				83330E1B1A6758FC006A463C /* ListaContatosViewController.h */,
-				83330E1C1A6758FC006A463C /* ListaContatosViewController.m */,
-				83330E1E1A68767E006A463C /* GerenciadorDeAcoes.h */,
-				83330E1F1A68767E006A463C /* GerenciadorDeAcoes.m */,
-				839C3C281A691D08003E07F8 /* ContatosNoMapaViewController.h */,
-				839C3C291A691D08003E07F8 /* ContatosNoMapaViewController.m */,
-				839C3C2A1A691D08003E07F8 /* ContatosNoMapaViewController.xib */,
-				83879CBA1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift */,
-				83C0DAEF1A9F4A320078966B /* BlaViewController.swift */,
-				83492A791AB77D1E004517E1 /* BlaViewController.xib */,
-				83A5385A1A48A0270096610B /* FormularioContatoViewController.h */,
-				83A5385B1A48A0270096610B /* FormularioContatoViewController.m */,
-				83A5385D1A48A0280096610B /* Main.storyboard */,
+				830B20DD1A6F4859003BFDF5 /* Vila Mariana.gpx */,
+				834624351B0265CF0029F819 /* model */,
+				834624341B0265B50029F819 /* controller */,
+				834624361B0265FC0029F819 /* views */,
 				83A538601A48A0280096610B /* Images.xcassets */,
-				83A538621A48A0280096610B /* LaunchScreen.xib */,
 				83A538571A48A0270096610B /* ContatosIP67.xcdatamodeld */,
 				83A538501A48A0270096610B /* Supporting Files */,
 				835AC0AC1A813AA200BF703A /* ContatosIP67-Bridging-Header.h */,
@@ -286,8 +304,7 @@
 				83A538641A48A0280096610B /* LaunchScreen.xib in Resources */,
 				839C3C2C1A691D08003E07F8 /* ContatosNoMapaViewController.xib in Resources */,
 				83A538611A48A0280096610B /* Images.xcassets in Resources */,
-				831A3CC51A72A8AD00B20EB9 /* TempoCidadeContatoViewController.xib in Resources */,
-				83492A7A1AB77D1E004517E1 /* BlaViewController.xib in Resources */,
+				8346242E1B0265170029F819 /* TempoCidadeContatoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +359,8 @@
 				83A538561A48A0270096610B /* AppDelegate.m in Sources */,
 				83330E1D1A6758FC006A463C /* ListaContatosViewController.m in Sources */,
 				83A538591A48A0270096610B /* ContatosIP67.xcdatamodeld in Sources */,
-				83C0DAF01A9F4A320078966B /* BlaViewController.swift in Sources */,
+				8346242D1B0265170029F819 /* TempoCidadeContatoViewController.m in Sources */,
 				83330E1A1A674219006A463C /* ContatoDao.m in Sources */,
-				831A3CC41A72A8AD00B20EB9 /* TempoCidadeContatoViewController.m in Sources */,
 				83A5385C1A48A0270096610B /* FormularioContatoViewController.m in Sources */,
 				83330E201A68767E006A463C /* GerenciadorDeAcoes.m in Sources */,
 				83879CBB1A9283D9001111CC /* ContatosNoMapaViewControllerSwift.swift in Sources */,

@@ -14,21 +14,18 @@ class ContatosNoMapaViewControllerSwift: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapa: MKMapView!
     var dao : ContatoDao!
-    var contatos : Array<AnyObject>!
+    var contatos : NSMutableArray
     let manager : CLLocationManager = CLLocationManager()
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
 
-    override init() {
+    required init(coder aDecoder: NSCoder) {
+        self.dao = ContatoDao.contatoDaoInstance() as! ContatoDao
+        self.contatos = dao.contatos
+        
         super.init(nibName: "ContatosNoMapaViewController", bundle: nil)
         self.tabBarItem = UITabBarItem(title: "Mapa Swift", image: UIImage(named: "mapa-contatos.png"), tag: 0)
         self.navigationItem.title = "Mapa Swift"
-        
-        self.dao = ContatoDao.contatoDaoInstance() as ContatoDao
-        self.contatos = dao.contatos
     }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +57,7 @@ class ContatosNoMapaViewControllerSwift: UIViewController, MKMapViewDelegate {
         } else {
             pino = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identificador)
         }
-        let contato = annotation as Contato
+        let contato = annotation as! Contato
         pino!.pinColor = MKPinAnnotationColor.Red
         pino!.canShowCallout = true
         
@@ -74,11 +71,11 @@ class ContatosNoMapaViewControllerSwift: UIViewController, MKMapViewDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
-        self.mapa.addAnnotations(self.contatos)
+        self.mapa.addAnnotations(self.contatos as [AnyObject])
     }
     
     override func viewDidDisappear(animated: Bool) {
-        self.mapa.removeAnnotations(self.contatos)
+        self.mapa.removeAnnotations(self.contatos as [AnyObject])
     }
     
 

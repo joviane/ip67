@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ListaContatosViewController.h"
-#import "ContatosIP67-Swift.h"
+#import "ContatosIP67/controller/ContatosIP67-Swift.h"
 
 @interface AppDelegate ()
 
@@ -27,7 +27,6 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:lista];
 
     ContatosNoMapaViewControllerSwift *mapa = [ContatosNoMapaViewControllerSwift new];
-    //BlaViewController *mapa = [BlaViewController new];
     UINavigationController *navMapa = [[UINavigationController alloc] initWithRootViewController:mapa];
     
     UITabBarController *barrinha = [UITabBarController new];

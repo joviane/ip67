@@ -21,4 +21,5 @@
 @property (strong) UIImage *foto;
 @property (strong) NSNumber *latitude;
 @property (strong) NSNumber *longitude;
+@property NSDate *data;
 @end
