@@ -46,7 +46,7 @@ class ContatosNoMapaViewControllerSwift: UIViewController, MKMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
         if(annotation.isKindOfClass(MKUserLocation)){
             return nil
         }
@@ -71,11 +71,11 @@ class ContatosNoMapaViewControllerSwift: UIViewController, MKMapViewDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
-        self.mapa.addAnnotations(self.contatos as [AnyObject])
+        self.mapa.addAnnotations(self.contatos as! [MKAnnotation])
     }
     
     override func viewDidDisappear(animated: Bool) {
-        self.mapa.removeAnnotations(self.contatos as [AnyObject])
+        self.mapa.removeAnnotations(self.contatos as! [MKAnnotation])
     }
     
 

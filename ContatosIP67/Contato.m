@@ -27,5 +27,4 @@
 - (NSString *)subtitle {
     return self.email;
 }
-
 @end

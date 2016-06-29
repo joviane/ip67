@@ -21,8 +21,36 @@
 
 - (void)acoesDoController:(UIViewController *) controller{
     self.controller = controller;
-    UIActionSheet *opcoes = [[UIActionSheet alloc] initWithTitle: self.contato.nome delegate:self cancelButtonTitle:@"Cancelar" destructiveButtonTitle:nil otherButtonTitles:@"Ligar", @"Enviar Email", @"Visualizar site", @"Abrir Mapa", @"Tempo local", nil];
-    [opcoes showInView:controller.view];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:self.contato.nome message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    UIAlertAction *ligar = [UIAlertAction actionWithTitle:@"Ligar" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self ligar];
+    }];
+    UIAlertAction *enviarEmail = [UIAlertAction actionWithTitle:@"Enviar Email" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self enviarEmail];
+    }];
+    UIAlertAction *visualizarSite = [UIAlertAction actionWithTitle:@"Visualizar site" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self abrirSite];
+    }];
+    UIAlertAction *abrirMapa = [UIAlertAction actionWithTitle:@"Abrir Mapa" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self mostrarMapa];
+    }];
+    UIAlertAction *tempoLocal = [UIAlertAction actionWithTitle:@"Tempo local" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self tempoLocal];
+    }];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancelar" style:UIAlertActionStyleCancel handler:nil];
+    
+    [alert addAction:ligar];
+    [alert addAction:enviarEmail];
+    [alert addAction:visualizarSite];
+    [alert addAction:abrirMapa];
+    [alert addAction:tempoLocal];
+    [alert addAction:cancel];
+    
+    [controller presentViewController:alert animated:YES completion:nil];
+    
+    //UIActionSheet *opcoes = [[UIActionSheet alloc] initWithTitle: self.contato.nome delegate:self cancelButtonTitle:@"Cancelar" destructiveButtonTitle:nil otherButtonTitles:@"Ligar", @"Enviar Email", @"Visualizar site", @"Abrir Mapa", @"Tempo local", nil];
+    //[opcoes showInView:controller.view];
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -55,6 +83,7 @@
 -(void)ligar {
     NSLog(@"Ligar");
     UIDevice *device = [UIDevice currentDevice];
+    NSLog(@"%@, %@", device.model, device.name);
     if ([device.model isEqualToString:@"iPhone"]) {
         // se for iPhone, podemos pedir para fazer um telefonema
         NSString *numero = [NSString stringWithFormat:@"tel:%@", self.contato.telefone];

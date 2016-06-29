@@ -7,7 +7,7 @@
 
 @implementation TempoCidadeContatoViewController
 
-static NSString const *BASE_URL = @"http://api.openweathermap.org/data/2.5/weather?";
+static NSString const *BASE_URL = @"http://api.openweathermap.org/data/2.5/weather?APPID=b17e3ecb3a522693a296a018d8a86d33&";
 static NSString const *BASE_URL_IMAGEM = @"http://openweathermap.org/img/w/";
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
